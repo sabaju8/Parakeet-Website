@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+			
+			<h1>Parakeets</h1>
+			<img class="parakeets"
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAY0vqfaiagWzunQsogfQflUVojidarsiO20AYHX1N--7qmqpFgAyA58A:https://www.kaytee.com/-/media/Project/OneWeb/Kaytee/US/learn-care/everything-you-need-to-know-about-pet-parakeets/what-colors-are-parakeets.jpg&s=10">
+				<p></p>
+					<hr class="line">
+						<h3>Parakeets are small birds native to Australia. They are characterized by long tails, zygodactyl feet (meaning they have 4 toes), and various color mutations. Most wild parakeets are bright green or yellow, but other colors such as blue, white, yellow, and violet have developed through captive breeding.</h3>
+						<h3>There are many types of parakeets, including cockatiels, monk parakeets, indian ringnecks, and more.</h3>
+								<img class="parakeets2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQISnsrdPhSa-UJqamWQ7goOqsLzJZXWX5pxOj8cXHA82U3ZgwPY7C_SlM&s=10">
+								<h3>To learn more about parakeets, check out the "Parakeet" page on Wikipedia below!<h3>
+								<iframe class="wikiapple" src="https://en.wikipedia.org/wiki/Parakeet"
+							
+	</body>
+
+</html>
+
+                  img {
+	width: 600px;
+	height: 500px;
+	border-radius: 10%;
+}
+
+.parakeets2{
+width: 80%;
+height: 80%;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 0px;
+border: rgb(0, 161, 13) solid 4px;
+}
+
+h1 {
+	color: black;
+	font-size: 400%;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line {
+	border: none;
+	height: 1px;
+	border-top: 10px dotted rgb(0, 161, 13);
+}
+
+.wikiapple {
+	width: 100%;
+	height: 100%;
+	border: 4px solid rgb(0, 161, 13);
+}
+
+body {
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: medium;
+	background: rgb(255, 255, 129);
+	color: rgb(0, 0, 0);
+}
+@keyframes pulseAnimation {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+.parakeets {
+  animation-name: pulseAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1.5s;
+  animation-direction: normal;
+  animation-fill-mode: both;
+	width: 80%;
+	height: 80%;
+	border: rgb(0, 161, 13) solid 4px
+}
+                  
+document.getElementById('go').addEventListener('click', () => {
+	alert('You built this!');
+});
+
